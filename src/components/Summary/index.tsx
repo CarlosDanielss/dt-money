@@ -5,28 +5,28 @@ import { SummaryCard, SummaryContainer } from "./styles";
 export function Summary() {
   return (
     <SummaryContainer>
-      <SummaryCard>
+      <SummaryCard $iconColor="green-300">
         <header>
           <span>Entradas</span>
-          <ArrowCircleUp size={32} color="#00b37e" />
+          <ArrowCircleUp size={32} />
         </header>
 
         <strong>R$ 17.400,00</strong>
       </SummaryCard>
 
-      <SummaryCard>
+      <SummaryCard $iconColor="red-300">
         <header>
           <span>Saídas</span>
-          <ArrowCircleDown size={32} color="#f75a68" />
+          <ArrowCircleDown size={32} />
         </header>
 
         <strong>R$ 17.400,00</strong>
       </SummaryCard>
 
-      <SummaryCard variant="green">
+      <SummaryCard $iconColor="white" $variant="green">
         <header>
           <span>Total</span>
-          <CurrencyDollar size={32} color="#fff" />
+          <CurrencyDollar size={32} />
         </header>
 
         <strong>R$ 17.400,00</strong>

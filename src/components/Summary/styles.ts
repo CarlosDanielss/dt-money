@@ -11,8 +11,15 @@ export const SummaryContainer = styled.section`
   gap: 2rem;
 `;
 
+const SummaryCardIconColors = {
+  white: "white",
+  "green-300": "green-300",
+  "red-300": "red-300",
+} as const;
+
 interface SummaryCardProps {
-  variant?: "green";
+  $variant?: "green";
+  $iconColor: keyof typeof SummaryCardIconColors;
 }
 
 export const SummaryCard = styled.div<SummaryCardProps>`
@@ -26,6 +33,10 @@ export const SummaryCard = styled.div<SummaryCardProps>`
     align-items: center;
     justify-content: space-between;
     color: ${(props) => props.theme["gray-300"]};
+
+    svg {
+      color: ${(props) => props.theme[SummaryCardIconColors[props.$iconColor]]};
+    }
   }
 
   strong {
@@ -36,7 +47,7 @@ export const SummaryCard = styled.div<SummaryCardProps>`
   }
 
   ${(props) =>
-    props.variant === "green" &&
+    props.$variant === "green" &&
     css`
       background: ${props.theme["green-700"]};
     `}
