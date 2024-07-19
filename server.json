@@ -1,28 +1,68 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2024-07-18T08:29:38.458Z"
-        },
-        {
-            "id": 2,
-            "description": "Computador",
-            "type": "outcome",
-            "category": "Compra",
-            "price": 8000,
-            "createdAt": "2024-07-17T08:29:38.458Z"
-        },
-        {
-            "id": 3,
-            "description": "Rocketseat",
-            "type": "outcome",
-            "category": "Educação",
-            "price": 2000,
-            "createdAt": "2024-07-15T08:29:38.458Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-07-18T08:29:38.458Z"
+    },
+    {
+      "id": "2",
+      "description": "Computador",
+      "type": "outcome",
+      "category": "Compra",
+      "price": 8000,
+      "createdAt": "2024-07-17T08:29:38.458Z"
+    },
+    {
+      "id": "3",
+      "description": "Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 2000,
+      "createdAt": "2024-07-15T08:29:38.458Z"
+    },
+    {
+      "id": "1b99",
+      "description": "academia",
+      "category": "Saúde",
+      "price": 80,
+      "type": "outcome",
+      "createdAt": "2024-07-19T16:20:21.988Z"
+    },
+    {
+      "id": "4601",
+      "description": "chocolate",
+      "category": "Comida",
+      "price": 2,
+      "type": "outcome",
+      "createdAt": "2024-07-19T16:21:07.058Z"
+    },
+    {
+      "id": "1f6b",
+      "description": "academia 2",
+      "category": "Saúde",
+      "price": 100,
+      "type": "outcome",
+      "createdAt": "2024-07-19T16:23:29.386Z"
+    },
+    {
+      "id": "399a",
+      "description": "iogurte de ameixa",
+      "category": "Comida",
+      "price": 10,
+      "type": "outcome",
+      "createdAt": "2024-07-19T16:57:34.467Z"
+    },
+    {
+      "id": "7131",
+      "description": "iogurte de morango",
+      "category": "Comida",
+      "price": 10,
+      "type": "outcome",
+      "createdAt": "2024-07-19T16:58:02.682Z"
+    }
+  ]
 }
