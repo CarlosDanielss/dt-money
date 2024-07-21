@@ -1,30 +1,60 @@
-# React + TypeScript + Vite
+# DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://i.imgur.com/CjjhoDU.png" />
 
-Currently, two official plugins are available:
+## Índice
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Stack Utilizada](#stack-utilizada)
+- [Funcionalidades](#funcionalidades)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
 
-## Expanding the ESLint configuration
+## Sobre o Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+O DT Money é uma aplicação para Gerenciamento de suas finanças de forma fácil. Registre despesas, receitas e acompanhe seu orçamento.
 
-- Configure the top-level `parserOptions` property like this:
+## Stack Utilizada
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+**Front-end:** 
+- [react](https://react.dev/)
+- [styled-components](https://styled-components.com/)
+- [phosphor-react](https://phosphoricons.com/)
+- [axios](https://axios-http.com/ptbr/)
+- [radix-ui](https://www.radix-ui.com/)
+- [react-hook-form](https://www.react-hook-form.com/)
+- [zod](https://zod.dev/)
+- [use-context-selector](https://www.npmjs.com/package/use-context-selector)
+
+## Funcionalidades
+
+- Adicione novas transações
+- Visualize suas transações realizadas
+- Busque por transações
+
+## Pré-requisitos
+
+Para começar a trabalhar no projeto do Promodoro-timer, certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
+
+- **Node.js:** O projeto depende do Node.js para execução de scripts. Se você não tiver o Node.js instalado, poderá baixá-lo em [https://nodejs.org/](https://nodejs.org/).
+
+## Instalação
+
+Siga estas etapas para colocar o projeto em funcionamento:
+
+1. Clone o repositório
+```sh
+git clone https://github.com/CarlosDanielss/dt-money.git
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Navegue até o diretório do projeto
+```sh
+cd dt-money
+```
+3. Instale dependências
+```sh
+npm install
+```
+4. Inicie o servidor de desenvolvimento
+```sh
+npm run dev
+```
